@@ -2,14 +2,14 @@
 
 File dùng lâu dài: luôn chứa bài soạn sẵn cho các buổi sắp tới, kèm đáp án. Học xong mỗi buổi, gia sư cập nhật file này theo đúng khuôn ở cuối file. Mang file này cùng `tien-do.md` và `audio-bai-tap-tiep-theo.html` sang tài khoản hay công cụ nào cũng dạy tiếp được, không cần gì từ tài khoản cũ.
 
-Cập nhật: 08/11/2026 · Hàng đợi: Buổi 4 (Nghe, làm dở từ Phần 3), Buổi 5 (Đọc)
+Cập nhật: 09/11/2026 · Hàng đợi: Buổi 5 (Đọc, gợi ý làm trước), Buổi 4 (Nghe, làm dở từ Phần 4, ~15 phút) + Buổi 6 (Nghe) làm liền trong buổi Nghe kế tiếp
 
 > **Người học:** không cần đọc file này (có đáp án). Chỉ cần nhắn gia sư "Bắt đầu buổi học".
 
 ## Hướng dẫn cho gia sư
 
 1. Đọc `tien-do.md` trước: trình độ, lỗi cần luyện, Anki. File này chỉ chứa bài.
-2. Chọn buổi trong Hàng đợi: buổi "Làm dở" trước; nếu không có, chọn buổi khác kỹ năng với buổi học gần nhất, hoặc buổi người học muốn.
+2. Chọn buổi trong Hàng đợi: buổi "Làm dở" trước; nếu không có, chọn buổi khác kỹ năng với buổi học gần nhất, hoặc buổi người học muốn. Ngoại lệ: phần làm dở chỉ còn ngắn (dưới ~20 phút) mà đã học 2 buổi cùng kỹ năng liền nhau → dạy buổi khác kỹ năng trước, ghép phần làm dở vào đầu buổi cùng kỹ năng kế tiếp. Người học nhắn "bắt đầu" / "lên bài tập" → gửi bài ngay trong tin nhắn đầu, theo gợi ý ở Hàng đợi, không hỏi chọn buổi (người học dặn 08/11).
 3. Dạy theo bảng phút của buổi. Gửi từng phần, từng bước: chép khối "Gửi người học" vào chat → chờ trả lời → chấm theo "Đáp án" → gửi bước tiếp. Không để lộ đáp án phần sau.
 4. Quy tắc dạy: giải thích bằng tiếng Việt, ví dụ lấy từ làm game; khi người học đưa câu tiếng Anh, hỏi đoán nghĩa trước rồi mới phân tích (chỉ dịch ngay khi họ ghi "dịch luôn"); chấm bằng số và chỉ lỗi cụ thể (nghe X thành Y, chọn X thay vì Y); trả lời gọn. Giải thích âm bằng lời thường (đếm số tiếng, "có tiếng t nhỏ ở cuối không"), tránh bảng dày ký hiệu IPA — 07/11 người học rối vì bảng này. Người học hay xin rút ngắn buổi: khi đó giữ phần luyện lỗi chính, ghi phần còn lại là "Làm dở".
 5. Audio tự tạo nằm trong `audio-bai-tap-tiep-theo.html` (mở bằng trình duyệt, chạy offline, không có đáp án). Thiếu trang này: dựng lại từ khối "Spec audio" ở cuối file (skill `gia-su-tieng-anh`, `scripts/tao_trang_audio.py`); không dựng được thì bỏ phần đó, làm các phần dùng nguồn công khai (VOA, Daily Dictation).
@@ -19,21 +19,21 @@ Cập nhật: 08/11/2026 · Hàng đợi: Buổi 4 (Nghe, làm dở từ Phần 
 
 | Buổi | Kỹ năng | Trọng tâm | Trạng thái |
 |---|---|---|---|
-| Buổi 4 | Nghe (GĐ1) | -ed /t/ không nghe thành -s; -s thừa; can/can't; Lesson 24; chép chính tả giọng thật; kiểm tra nhanh 4 tuần | Làm dở (07/11 xong Phần 0–2; còn Phần 3, 4, 5) |
-| Buổi 5 | Đọc (GĐ2) | To + V đầu câu; câu hai tầng; email khung 4 câu hỏi; đếm từ lạ | Chờ làm |
+| Buổi 5 | Đọc (GĐ2) | To + V đầu câu; câu hai tầng; email khung 4 câu hỏi; đếm từ lạ | Chờ làm — **gợi ý làm trước** (Đọc chưa học từ 18/10; đã 2 buổi Nghe liền 07/11, 09/11) |
+| Buổi 4 | Nghe (GĐ1) | -ed /t/ không nghe thành -s; -s thừa; can/can't; Lesson 24; chép chính tả giọng thật; kiểm tra nhanh 4 tuần | Làm dở (07/11 xong Phần 0–2; 09/11 xong Phần 3 trừ bước 5; còn Phần 4, 5 ~15 phút) |
+| Buổi 6 | Nghe (GĐ1) | Ôn 3 chỗ hụt Lesson 24; Lesson 28 nghe sâu; -ed "t" sau âm s (passed, practiced) | Chờ làm — làm ngay sau Phần 5 Buổi 4, cùng một buổi tối |
 
 ---
 
 ## Buổi 4 — Nghe (Giai đoạn 1)
 
-Trạng thái: Làm dở · Đã làm đến: Phần 2 xong (07/11/2026, bản rút gọn ~20 phút: Phần 0 chỉ hỏi câu 1–3, bỏ video Pronunciation ở Phần 1); còn Phần 3, 4, 5 · Soạn: 06/11/2026
+Trạng thái: Làm dở · Đã làm đến: Phần 3 xong trừ bước 5 (07/11/2026: Phần 0 câu 1–3, Phần 1 bỏ video Pronunciation, Phần 2; 09/11/2026: Phần 3 bước 1–4, khởi động "Nghe so sánh"); còn Phần 4, 5 (~15 phút) · Soạn: 06/11/2026
 
-**Khi làm tiếp** (khoảng 40 phút):
+**Khi làm tiếp** (khoảng 15 phút, rồi sang Buổi 6 cùng buổi tối):
 
-1. Mở đầu 3 phút: hỏi Phần 0 câu 2 (Anki số thẻ / % nhớ — 07/11 người học bỏ qua) và câu 4 (tự đánh giá, kiểm tra nhanh lần 1); hỏi bộ thẻ 02–04 đã kiểm tra trong Browse chưa. Rồi cho nghe lại 2 phút mục "Nghe so sánh" của Phần 2, câu 1, 2, 5, 8 (các câu sai 07/11).
-2. Phần 3 (Lesson 24) → Phần 4 (Daily Dictation) → Phần 5. Người học muốn ngắn thì làm Phần 4 trước (chép chính tả là phần còn thiếu của kiểm tra nhanh), Phần 3 để sau.
-3. Ở Bước 3 Phần 3 (săn từ -ed), để ý riêng -ed /t/ dính sang từ sau (walked, danced, cooked) — đúng lỗi 07/11.
-4. Phần 5: bảng kết quả gộp cả số 07/11 — Phần 1: 7/8 · Phần 2: 6/10 (work/works/worked 2/4; sai câu 1, 2, 5, 8). 4 câu Anki đã gợi ý 07/11 (đang chờ người học chọn, ghi trong tien-do.md mục 7).
+1. Vào thẳng Phần 4 (Daily Dictation), không hỏi câu đầu buổi: người học đã bỏ qua câu hỏi Anki / tự đánh giá 2 lần (07/11, 09/11) → hỏi ở Phần 5, mỗi lần 1 câu ngắn.
+2. Phần 3 bước 5 (% hiểu lần cuối Lesson 24) bỏ — Buổi 6 Phần 1 nghe lại Lesson 24 thay cho bước này.
+3. Phần 5: bảng kết quả gộp số 07/11 và 09/11 — Phần 1: 7/8 · Phần 2: 6/10 (work/works/worked 2/4; sai câu 1, 2, 5, 8) · Lesson 24: ý chính gần đúng (~60% → ~80% sau gợi ý), câu hỏi 4/5, -ed tìm 5/7, xếp nhóm 4/5. 8 câu Anki đã gợi ý (07/11 và 09/11, đang chờ người học chọn, ghi trong tien-do.md mục 7).
 
 **Mục tiêu**
 
@@ -199,15 +199,19 @@ Chấm: tìm được x/7, xếp đúng y. "danced" hay bị nghe thiếu đuôi
 
 **Cách chấm:** trang tự hiện đáp án. % từ đúng = (tổng từ − từ sai) / tổng từ. Thiếu hoặc thừa -s, -ed tính sai. Phân loại lỗi: âm cuối / từ nhỏ / nối âm / từ chưa biết. Ngưỡng cuối GĐ1: ≥ 70% từ. Đây cũng là phần chép chính tả của kiểm tra nhanh 4 tuần.
 
+Gia sư kiểm tra trang ngày 08/11/2026: 5 câu đầu có tổng 23 từ (tính "26th" là 1 từ) → đạt 70% khi sai tối đa 6 từ (17/23 = 74%; 16/23 = 70%). Chỗ dễ sai, đúng lỗi của người học: snowed (-ed "đ" dính sang từ sau), all (lỗi old / all), stopped (-ed "t"), excited (-ed dài thêm 1 tiếng), "and" đọc nhẹ, số ngày 26th. Trang dùng JavaScript (mở bằng Chrome).
+
 **Ghi vào tien-do.md:** % từ đúng (cột Chép chính tả, ghi "Daily Dictation, giọng thật"), lỗi tiêu biểu.
 
 ### Phần 5 — Tổng kết (3 phút)
 
-Gia sư gửi bảng kết quả: Phần 1 x/8 · Phần 2 x/10 (work/works/worked x/4) · Lesson 24: ý chính, câu hỏi x/5, -ed x/7, % hiểu lần cuối · Daily Dictation % từ đúng.
+Gia sư gửi bảng kết quả: Phần 1 x/8 · Phần 2 x/10 (work/works/worked x/4) · Lesson 24: ý chính, câu hỏi x/5, -ed x/7 · Daily Dictation % từ đúng. (Số 07/11, 09/11 đã có ở "Khi làm tiếp" bên trên.)
 
-Gợi ý Anki (kiểu "TA – Nghe chép câu"): câu đúng của các cặp Phần 2 mà người học chọn sai; 1–2 câu mới gia sư tự viết theo đúng lỗi chép chính tả vừa gặp (không chép câu của Daily Dictation). Người học chọn; bộ thẻ 05 bắt đầu từ tacv_s20.
+Hỏi 1 câu tự đánh giá (kiểm tra nhanh lần 1): "Gần đây có lần nào bạn hiểu một tin nhắn, email hay video tiếng Anh ở chỗ làm mà không cần dịch máy không?"
 
-Rồi cập nhật tien-do.md và file này (mục cuối file).
+Gợi ý Anki (kiểu "TA – Nghe chép câu"): câu đúng của các cặp Phần 2 mà người học chọn sai; 1–2 câu mới gia sư tự viết theo đúng lỗi chép chính tả vừa gặp (không chép câu của Daily Dictation). Người học chọn; bộ thẻ 05 bắt đầu từ tacv_s20. Không tạo được bộ thẻ (thiếu gói chạy code) → ghi vào tien-do.md mục 7.
+
+Rồi chuyển sang Buổi 6 nếu người học còn sức; dừng thì cập nhật tien-do.md và file này (mục cuối file).
 
 ---
 
@@ -237,6 +241,8 @@ Trạng thái: Chờ làm · Đã làm đến: — · Soạn: 06/11/2026
 **Gửi người học:**
 
 > Ôn Anki xong chưa? Báo mình số thẻ đã học và % nhớ đúng (nếu đã báo ở buổi Nghe trong tuần này thì bỏ qua).
+
+Từ 09/11: người học bỏ qua câu này 2 lần khi hỏi đầu buổi → tin nhắn đầu tiên vào thẳng Phần 1 Bước 1; hỏi câu Anki ở Phần 4 (Tổng kết).
 
 **Ghi vào tien-do.md:** cột Anki.
 
@@ -443,6 +449,116 @@ Rồi cập nhật tien-do.md và file này.
 
 ---
 
+## Buổi 6 — Nghe (Giai đoạn 1)
+
+Trạng thái: Chờ làm · Đã làm đến: — · Soạn: 09/11/2026
+
+Làm ngay sau Phần 5 của Buổi 4, trong cùng một buổi Nghe (Buổi 4 còn ~15 phút + Buổi 6 ~30 phút).
+
+**Mục tiêu**
+
+1. Nghe ra 3 chỗ hụt của Lesson 24 (09/11, đều loại "biết từ mà không nghe ra"): wanted a break, work day, is called.
+2. -ed đọc "t" sau âm s, kể cả khi chữ cuối là e: passed, practiced (09/11 xếp danced vào nhóm "đ").
+3. Nghe hiểu hội thoại dài hơn: Lesson 28 (3:18, 3 người nói). Lesson 24 vừa sức (câu hỏi 4/5, đọc transcript hiểu hết) → lên bài kế tiếp.
+
+**Cần có**
+
+- Lesson 24 (link ở Buổi 4), mục Conversation.
+- VOA Let's Learn English Level 1 – Lesson 28 "I Passed It!": https://learningenglish.voanews.com/a/lets-learn-english-lesson-28-i-passed-it/3487865.html — video chính 5:00, Speaking Practice 5:03, Pronunciation Practice 1:20, **Conversation (audio 3:18 + transcript)**, Quiz.
+- Không cần trang audio.
+
+| Phần | Phút | Nội dung |
+|---|---|---|
+| 1 | 5 | Ôn 3 chỗ hụt của Lesson 24 |
+| 2 | 22 | Lesson 28 — nghe sâu 5 bước |
+| 3 | 3 | Tổng kết, chọn thẻ Anki |
+
+Anki và câu tự đánh giá đã hỏi ở Phần 5 Buổi 4 → không hỏi lại.
+
+Còn thiếu cho mục work / works / worked (cần 4/4 hai lần trên câu A/B mới): phải có audio tự tạo, tài khoản hiện tại chưa dựng được. Khi dựng được (có kokoro), soạn 8–10 cặp theo "Tài liệu kế tiếp", thêm vào "Spec audio", ghép thành một phần 8 phút của buổi Nghe gần nhất.
+
+### Phần 1 — Ôn 3 chỗ hụt của Lesson 24 (5 phút)
+
+**Gửi người học:**
+
+> Mở lại Lesson 24, mục Conversation, nghe audio và dừng ở 3 chỗ hôm 09/11 bạn chưa nghe ra. Mỗi chỗ tua lại nghe 3 lần, nói nhỏ theo:
+> 1. **I wanted a break** — "wanted" dài thêm 1 tiếng (want‑ed) và dính sang "a"; "a break" là giờ nghỉ (phía sau không có tiếng "fast").
+> 2. **work day** — 2 từ, có tiếng "đây" ở sau, không phải "worked".
+> 3. **is called** — "được gọi là"; -ed đọc "đ" nhẹ.
+>
+> Xong báo mình: lần này nghe ra được mấy chỗ (x/3)?
+
+**Cách chấm:** người học tự báo x/3. Chỗ nào vẫn chưa nghe ra → giữ trong "Điểm cần luyện nghe" (lỗi nối âm).
+
+**Ghi vào tien-do.md:** ôn Lesson 24 x/3.
+
+### Phần 2 — Lesson 28, nghe sâu (22 phút)
+
+**Bước 1 — Gửi người học:**
+
+> Mở bài Lesson 28 (link ở trên), tìm mục **Conversation**, bấm nghe audio (3 phút 18). Nghe 2 lần, **không nhìn chữ** (đừng cuộn xuống phần chữ). Rồi ghi ý chính bằng tiếng Việt, 2–3 câu. Gợi ý: có 3 người nói.
+
+**Đáp án ý chính:** Anna khoe với bạn cùng phòng Marsha là đã có bằng lái xe (và đã thuê xe để đi ngắm Washington, D.C.). Anna kể bài thi lái rất khó: lần đầu trượt vì quá lo lắng khi lái trong thành phố (người chấm thi tên John), luyện tập rồi lần hai đỗ. Cuối bài Anna muốn lái xe đến Nhà Trắng nhưng ô tô không vào sát được nên hai người đi bộ. Chấm đúng / gần đúng / sai, ước % ý.
+
+**Bước 2 — Gửi người học:**
+
+> 5 câu hỏi (trả lời ngắn bằng tiếng Việt; được nghe lại 1 lần nếu cần):
+> 1. Anna nói chuyện với ai? Người đó là gì với Anna?
+> 2. Anna thi lái xe mấy lần? Kết quả mỗi lần?
+> 3. Vì sao bài thi khó với Anna?
+> 4. Kể 2 lỗi Anna mắc khi thi lần đầu.
+> 5. Cuối bài Anna muốn đi đâu? Họ sẽ đi bằng cách nào, vì sao?
+
+**Đáp án:**
+
+1. Marsha — bạn cùng phòng (roommate) của Anna.
+2. 2 lần: lần đầu trượt, lần hai đỗ (passed).
+3. Anna quen lái máy móc ở nông trại nhưng rất lo lắng (nervous) khi lái trong thành phố, đường đông xe.
+4. Hai trong các ý: đạp ga quá mạnh; rẽ trước khi người chấm thi bảo; suýt đâm vào xe khác (người chấm thi hét bảo nhìn trước và phanh lại); lái quá chậm nên xe khác bấm còi; có tiếng còi cảnh sát.
+5. Nhà Trắng (the White House); đi bộ, vì ô tô không được lái đến sát Nhà Trắng.
+
+Đáp án soạn từ nội dung trang ngày 09/11/2026 — đối chiếu transcript khi chấm (nhất là chi tiết câu 3, 4). Tên riêng không trừ điểm. Từ dễ hiểu sai: roommate (bạn cùng phòng), nervous (lo lắng, run), **brake** (phanh) — đọc giống hệt **break** (giờ nghỉ, chỗ nghe nhầm 09/11): phân biệt bằng ngữ cảnh, đang lái xe thì là phanh.
+
+**Bước 3 — Gửi người học:**
+
+> Nghe lần 3, vẫn không nhìn chữ. Săn **từ có đuôi -ed** (có ít nhất 5 từ khác nhau), rồi xếp vào 3 nhóm như hôm trước: **A** dài thêm 1 tiếng · **B** tiếng "t" nhỏ · **C** tiếng "đ" nhẹ. Nhớ câu "Khi Sang Sông Phải Chờ Thu Phí".
+
+**Đáp án:**
+
+| Nhóm | Từ |
+|---|---|
+| A (dài thêm 1 tiếng) | rented, started |
+| B ("t" nhỏ) | passed, practiced |
+| C ("đ" nhẹ) | happened |
+
+Danh sách lấy từ nội dung trang ngày 09/11 — đối chiếu transcript khi chấm; có thêm từ -ed (ví dụ failed nếu có) thì cộng vào và sửa con số "ít nhất 5". Bẫy chính: passed, practiced — chữ cuối là s / ce, âm cuối "s" → nhóm B (đúng lỗi danced 09/11); "passed" đọc giống "past". Không tính was, were, did, said (quá khứ nhưng không có -ed). Chấm: tìm được x, xếp đúng y.
+
+**Bước 4 — Gửi người học:**
+
+> Giờ cuộn xuống đọc phần chữ của Conversation. Đối chiếu với những gì bạn nghe: chỗ nào không nghe ra? Mỗi chỗ ghi **(a)** từ chưa biết hay **(b)** biết từ mà không nghe ra. Ghi kiểu: "nervous: (a)".
+
+**Cách chấm:** (b) là lỗi tai → "Điểm cần luyện nghe"; (a) → gợi ý Anki.
+
+**Bước 5 — Gửi người học:**
+
+> Nghe lần cuối, không nhìn chữ. Lần này bạn hiểu khoảng bao nhiêu %? Ghi một con số.
+
+09/11 người học dừng trước bước này → nếu người học muốn dừng ở Bước 4, hỏi luôn con số ước lượng.
+
+**Cách chấm:** ≥ 90% và câu hỏi ≥ 4/5 → bài Nghe sau dùng Lesson 29 trở đi, có thể thử bài dài hơn. 70–90% → giữ Level 1, bài kế tiếp. Dưới 70% → dặn nghe lại Lesson 28 trong tuần (5 phút mỗi ngày).
+
+**Ghi vào tien-do.md:** ý chính, câu hỏi x/5, -ed tìm x / xếp đúng y, lỗi loại (b), % hiểu lần cuối.
+
+### Phần 3 — Tổng kết (3 phút)
+
+Gia sư gửi bảng kết quả: ôn Lesson 24 x/3 · Lesson 28 (ý chính, câu hỏi x/5, -ed, % hiểu lần cuối).
+
+Gợi ý Anki (kiểu "TA – Nghe chép câu"): câu gia sư tự viết theo đúng lỗi loại (b) vừa gặp, không chép câu VOA — ví dụ nghe sai passed / practiced: "I passed the test." · "We practiced the new level."; nhầm brake / break: "Press the brake." Người học chọn; không tạo được bộ thẻ → ghi vào tien-do.md mục 7.
+
+Rồi cập nhật tien-do.md và file này.
+
+---
+
 ## Cập nhật file này sau mỗi buổi
 
 1. **Buổi vừa học xong:** thêm 1 dòng vào "Tài liệu đã dùng", rồi xóa nội dung chi tiết của buổi đó khỏi file (kết quả đã nằm trong tien-do.md). **Làm dở:** sửa dòng "Trạng thái" thành "Làm dở · Đã làm đến: Phần …, bước …" và giữ nguyên nội dung.
@@ -488,9 +604,9 @@ Bài Nghe có audio tự tạo: thêm phần tương ứng vào khối "Spec aud
 
 **Nghe**
 
-- VOA Let's Learn English Level 1: Lesson 24 (Buổi 4) → Lesson 28 "I Passed It!" — Anna kể về bài thi lái xe; nhiều động từ quá khứ bất quy tắc; video phát âm về cách nói "well" khi báo tin không vui: https://learningenglish.voanews.com/a/lets-learn-english-lesson-28-i-passed-it/3487865.html → các bài sau theo thứ tự. Qua GĐ1 thì chuyển Let's Learn English Level 2 và BBC Real Easy English.
+- VOA Let's Learn English Level 1: Lesson 24 (Buổi 4, nghe xong 09/11) → Lesson 28 "I Passed It!" (Buổi 6) — Anna kể về bài thi lái xe; nhiều động từ quá khứ bất quy tắc; video phát âm về cách nói "well" khi báo tin không vui: https://learningenglish.voanews.com/a/lets-learn-english-lesson-28-i-passed-it/3487865.html → Lesson 29 và các bài sau theo thứ tự. Qua GĐ1 thì chuyển Let's Learn English Level 2 và BBC Real Easy English.
 - Daily Dictation Short Stories (A1), mỗi buổi Nghe một bài: 1 "First snowfall" (Buổi 4) → 2 "Jessica's first day of school" (https://dailydictation.com/exercises/short-stories/2-jessicas-first-day-of-school.5/listen-and-type) → 3 "My flower garden" (https://dailydictation.com/exercises/short-stories/3-my-flower-garden.6/listen-and-type) → 4 "Going camping" (https://dailydictation.com/exercises/short-stories/4-going-camping.7/listen-and-type) → 5 "My house" (https://dailydictation.com/exercises/short-stories/5-my-house.8/listen-and-type). Danh sách đầy đủ: https://dailydictation.com/exercises/short-stories
-- Luyện tai tự tạo (trang audio): tiếp tục cặp A/B cho lỗi còn sai; khi Phần 2 của Buổi 4 đạt ≥ 9/10 thì chuyển sang chép chính tả giọng máy có từ đọc nhẹ. 07/11 Phần 2 mới được 6/10 → buổi Nghe sau Buổi 4 soạn 8–10 cặp A/B **câu mới**: -ed /t/ dính sang từ sau (worked on / work on, fixed it / fixes it, checked out / checks out, stopped at / stops at), -s thừa (level / levels, the item / the items), old / all; trộn 2–3 câu đáp án CÓ -s để không chọn theo thói quen. Mục work/works/worked cần 4/4 hai lần.
+- Luyện tai tự tạo (trang audio): tiếp tục cặp A/B cho lỗi còn sai; khi Phần 2 của Buổi 4 đạt ≥ 9/10 thì chuyển sang chép chính tả giọng máy có từ đọc nhẹ. 07/11 Phần 2 mới được 6/10 → buổi Nghe sau Buổi 4 soạn 8–10 cặp A/B **câu mới**: -ed /t/ dính sang từ sau (worked on / work on, fixed it / fixes it, checked out / checks out, stopped at / stops at), -s thừa (level / levels, the item / the items), old / all; trộn 2–3 câu đáp án CÓ -s để không chọn theo thói quen. Mục work/works/worked cần 4/4 hai lần. 09/11 thêm: -ed thừa do chữ d của từ sau ("work day" / worked), -ed "t" sau âm s (danced / dance, passed / pass). Tài khoản hiện tại chưa dựng được audio: máy chạy code thiếu kokoro và mạng cài gói đang tắt, shell trên máy người học cũng không có mạng.
 - Âm: video Elight (bảng IPA giải thích bằng tiếng Việt); video Pronunciation Practice của từng bài VOA.
 
 **Đọc**
